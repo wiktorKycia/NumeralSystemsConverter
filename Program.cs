@@ -9,7 +9,7 @@
         static int ToDecimal(int number, byte system)
         {
             int sum = 0;
-            
+            int len = (int)Math.Log10(number) +1;
             return sum;
         }
 
