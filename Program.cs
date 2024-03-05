@@ -6,5 +6,9 @@
         {
             
         }
+        static double ToDecimal(string number, int system)
+        {
+
+        }
     }
 }
