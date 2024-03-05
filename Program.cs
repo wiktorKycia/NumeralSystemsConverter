@@ -6,7 +6,7 @@
         {
             ToDecimal("123,123", 10);
         }
-        static int ToDecimal(string number, byte system)
+        static int ToDecimal(int number, byte system)
         {
 
         }
