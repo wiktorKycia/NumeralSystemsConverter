@@ -8,7 +8,9 @@
         }
         static int ToDecimal(int number, byte system)
         {
-
+            int sum = 0;
+            
+            return sum;
         }
 
         static double ToDecimal(string number, byte system)
