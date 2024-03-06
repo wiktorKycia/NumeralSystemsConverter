@@ -22,6 +22,7 @@
 
         static double ToDecimal(string number, byte system)
         {
+            double result;
             if(system > 9)
             {
                 throw new ArgumentException("Wartość systemu liczbowego nie może być większa lub równa 10!");
@@ -33,6 +34,7 @@
                 {
                     dotIndex = number.IndexOf(",");
                 }
+                result = ToDecimal(int.Parse(number.Substring(0, dotIndex)), system);
             }
             return 0.0;
         }
