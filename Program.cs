@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ToDecimal(537, 8));
+            Console.WriteLine(ToDecimal("537,62", 8));
         }
         static int ToDecimal(int number, byte system)
         {
@@ -36,7 +36,11 @@
                 }
                 result = ToDecimal(int.Parse(number.Substring(0, dotIndex)), system);
             }
-            return 0.0;
+            else
+            {
+                result = ToDecimal(int.Parse(number), system);
+            }
+            return result;
         }
     }
 }
