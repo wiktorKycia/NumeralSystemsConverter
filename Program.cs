@@ -37,7 +37,7 @@
                 result = ToDecimal(int.Parse(number.Substring(0, dotIndex)), system);
                 string afterComma = number.Substring(dotIndex + 1);
                 int a = ToDecimal(int.Parse(afterComma), system);
-                result += a / afterComma.Length;
+                result += a * Math.Pow(system, -afterComma.Length);
             }
             else
             {
