@@ -65,7 +65,11 @@
             }
             if (number.Contains('.') || number.Contains(','))
             {
-
+                int dotIndex = number.IndexOf(".");
+                if (dotIndex == -1)
+                {
+                    dotIndex = number.IndexOf(",");
+                }
             }
             else
             {
