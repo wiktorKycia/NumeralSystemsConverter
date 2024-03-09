@@ -59,16 +59,19 @@
         }
         static double AfterComma(double number, byte system, byte digitsAfterComma)
         {
-            double sum = 0;
+            double a = Math.Pow(10, -((int)Math.Log10(number) + 1));
+            number *= a;
+            string sum = "0,";
             int i = 0;
-            while (number > 0 && i + 1 < digitsAfterComma)
+            while (number > 0 && i < digitsAfterComma)
             {
                 double digit = number * system;
-                sum += digit.ToString()[0] * Math.Pow(10, -i-1);
-                number = digit % 1;
+                sum += digit.ToString()[0];
+                Console.WriteLine($"{number} * {system} = {digit}, liczba: {digit.ToString()[0]}, suma: {sum}");
+                number = Math.Round(digit % 1, 2);
                 i++;
             }
-            return sum;
+            return double.Parse(sum);
         }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
