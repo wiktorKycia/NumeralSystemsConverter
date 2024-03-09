@@ -60,9 +60,12 @@
         {
             double sum = 0;
             int i = 0;
-            while (number > 0 || i + 1 < digitsAfterComma)
+            while (number > 0 && i + 1 < digitsAfterComma)
             {
-
+                double digit = number * system;
+                sum += digit.ToString()[0] * Math.Pow(10, -i);
+                number = digit % 1;
+                i++;
             }
             return sum;
         }
