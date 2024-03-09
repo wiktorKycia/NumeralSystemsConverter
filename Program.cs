@@ -47,7 +47,10 @@
         }
         static int FromDecimal(int number, byte system)
         {
+            while (number > 0)
+            {
 
+            }
         }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
