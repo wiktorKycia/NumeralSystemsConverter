@@ -75,7 +75,7 @@
             double result;
             if(system > 9)
             {
-                throw new ArgumentException("Wartość systemu liczbowego nie może być większa lub równa 10!")
+                throw new ArgumentException("Wartość systemu liczbowego nie może być większa lub równa 10!");
             }
             if (number.Contains('.') || number.Contains(','))
             {
