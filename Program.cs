@@ -56,6 +56,10 @@
             }
             return sum;
         }
+        static double AfterComma(string number, byte system, byte digitsAfterComma)
+        {
+
+        }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
             double result;
