@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(ToDecimal("0,4231", 5));
+            Console.WriteLine(FromDecimal("234,13", 4, 10));
         }
         static int ToDecimal(int number, byte system)
         {
@@ -64,7 +64,7 @@
             while (number > 0 && i + 1 < digitsAfterComma)
             {
                 double digit = number * system;
-                sum += digit.ToString()[0] * Math.Pow(10, -i);
+                sum += digit.ToString()[0] * Math.Pow(10, -i-1);
                 number = digit % 1;
                 i++;
             }
