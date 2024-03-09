@@ -52,6 +52,15 @@
             {
                 throw new ArgumentException("Wartość systemu liczbowego nie może być większa lub równa 10!")
             }
+            if (number.Contains('.') || number.Contains(','))
+            {
+
+            }
+            else
+            {
+
+            }
+            return result;
         }
     }
 }
