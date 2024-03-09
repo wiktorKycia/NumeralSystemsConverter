@@ -56,9 +56,15 @@
             }
             return sum;
         }
-        static double AfterComma(string number, byte system, byte digitsAfterComma)
+        static double AfterComma(double number, byte system, byte digitsAfterComma)
         {
+            double sum = 0;
+            int i = 0;
+            while (number > 0 || i + 1 < digitsAfterComma)
+            {
 
+            }
+            return sum;
         }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
