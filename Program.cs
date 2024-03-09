@@ -54,6 +54,7 @@
                 sum += (number % system) * (int)Math.Pow(10, i);
                 number /= system;
             }
+            return sum;
         }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
