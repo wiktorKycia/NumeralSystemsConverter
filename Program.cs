@@ -45,6 +45,10 @@
             }
             return result;
         }
+        static int FromDecimal(int number, byte system)
+        {
+
+        }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
             double result;
