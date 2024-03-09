@@ -86,6 +86,7 @@
                 }
                 result = FromDecimal(int.Parse(number.Substring(0, dotIndex)), system);
                 string afterComma = number.Substring(dotIndex + 1);
+                result += AfterComma(double.Parse(afterComma), system, digitsAfterComma);
             }
             else
             {
