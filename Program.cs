@@ -69,7 +69,7 @@
             }
             else
             {
-
+                result = FromDecimal(int.Parse(number), system);
             }
             return result;
         }
