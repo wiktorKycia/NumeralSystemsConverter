@@ -53,6 +53,7 @@
             {
                 sum += (number % system) * (int)Math.Pow(10, i);
                 number /= system;
+                i++;
             }
             return sum;
         }
