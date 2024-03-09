@@ -45,5 +45,9 @@
             }
             return result;
         }
+        static double FromDecimal(string number, byte system, byte digitsAfterComma)
+        {
+
+        }
     }
 }
