@@ -47,7 +47,11 @@
         }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
         {
-
+            double result;
+            if(system > 9)
+            {
+                throw new ArgumentException("Wartość systemu liczbowego nie może być większa lub równa 10!")
+            }
         }
     }
 }
