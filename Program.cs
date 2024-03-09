@@ -51,7 +51,8 @@
             int i = 0;
             while (number > 0)
             {
-
+                sum += (number % system) * (int)Math.Pow(10, i);
+                number /= system;
             }
         }
         static double FromDecimal(string number, byte system, byte digitsAfterComma)
