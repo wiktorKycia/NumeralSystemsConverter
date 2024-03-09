@@ -1,0 +1,15 @@
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\bin\Debug\net8.0\NumeralSystemsConverter.exe
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\bin\Debug\net8.0\NumeralSystemsConverter.deps.json
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\bin\Debug\net8.0\NumeralSystemsConverter.runtimeconfig.json
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\bin\Debug\net8.0\NumeralSystemsConverter.dll
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\bin\Debug\net8.0\NumeralSystemsConverter.pdb
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.AssemblyInfoInputs.cache
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.AssemblyInfo.cs
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.csproj.CoreCompileInputs.cache
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.sourcelink.json
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.dll
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\refint\NumeralSystemsConverter.dll
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.pdb
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\NumeralSystemsConverter.genruntimeconfig.cache
+D:\Wiktor\Programowanie\C# VSC\NumeralSystemsConverter\obj\Debug\net8.0\ref\NumeralSystemsConverter.dll
